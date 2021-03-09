@@ -6,3 +6,9 @@
       <el-button type="danger" disabled>危险按钮</el-button>
   </div>
 </template>
+
+<style lang='scss' scoped>
+ h1 {
+   font-size: 50px;
+ }
+</style>
