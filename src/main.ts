@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import ElementUI from 'element-ui' //引入ElementUI
-import 'element-ui/lib/theme-chalk/index.css'; //引入ElementUI 的样式
+// import 'element-ui/lib/theme-chalk/index.css'; //引入ElementUI 的样式
 
+import '@/styles/element-variables.scss'
+import '@/styles/index.scss'
 
 Vue.config.productionTip = false   // 阻止显示生产模式的消息
 Vue.use(ElementUI) //注册ElementUI
